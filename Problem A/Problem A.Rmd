@@ -1,0 +1,96 @@
+---
+title: "Problem A"
+author: "Raphael Dizon"
+date: "2024-01-24"
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+# Data Cleaning and Processing
+![](https://shorturl.at/isHU1)
+![](https://shorturl.at/qsG38)
+
+The first step is to clean and process the data. I transposed the data in Excel from rows to columns for better analysis. The dataset was then restructured to include three columns: Date, User Type, and Total. Afterward, I uploaded the data into Tableau for further analysis and visualizations.
+
+# Figure 1: User Type Recorded per Month (Pie Chart)
+![](https://shorturl.at/aQUVZ)
+
+#### Figure is generated using Tableau
+In the first figure of visualization, shows the User type Recorded per Month. With this figure represented in pie chart, we can get the picture of how the flow users use the app and it composes of percentage and summation of information from the users recorded including their total from the following 5 months.
+
+# Figure 2: Total User Types (Bar-Chart)
+![](https://shorturl.at/juDL7)
+
+In this figure, illustrate the total users in the app. With this figure, we can start to draw insights about the users and the app. Based on this figure, there is a high record of total users who signed up. And the least recorded are Total active users.
+
+**Problem**: 
+
+The Ridehailing App is challenged between the escalating number of users who sign up for the service and a disproportionately low count of active users. Despite a growing record in user signups, user who requested a booking, and user who phone verified there exists an evident gap in converting sign-ups into sustained and active users with the application.
+
+**To Answer the question: What actions would you commit to fix the problem based on this data?**
+
+-	To address the problem using the data and insights here are some actions that might fix the problem.
+o	Commit to implementing a comprehensive plan that will consistently focuses on the growth of users.
+o	Analyzing user behavior, on how and when they mostly used the apps per time of the day, season of the year, and overtime.
+
+
+![](https://shorturl.at/gSTZ5)
+
+In this figure, there is a representation of what has the most recorded users overtime and shows a trend on what needs to be prioritized in order to maximize the number of active users and increase the frequency of usage on the Ridehailing app platform.
+
+Considering the analytical goals to answer the following questions for analysis:
+1.	Pick up your most high priority task and create stories for development. 
+2.	How will you implement your suggestions? What will you prioritize and why?
+
+***Analytical Goal for Development***
+
+***WHY***: Impact on Ridhailing app and It’s users
+-	Why do we need do we need to maximize active users why not just the one’s who book
+-	Why are signed app users are not fully active users
+
+***HOW***:
+***Story 1 – Engage Users***
+•	User should be able to sign up using email or social media accounts.
+•	Provide a guided tour highlighting key app features during onboarding.
+•	Minimize steps required for account setup and personalization.
+***Users Wants***: As a new user, I want the process to be intuitive and efficient, so I can quickly start using the Ridehailing app.
+
+***Story 2 – Lure in the users by Personalized Notification System (Maximization of user)***
+•	Develop and Implement an intelligent notification system that considers historical user behavior.
+•	Allow users to set preferences for notification frequency and content.
+•	Ensure notifications are relevant and provide value.
+***Users Wants***: As a user, I want to receive personalized notifications based on my usage patterns, so I am reminded to use the ridehailing app when it aligns with my typical travel times.
+
+***Story 3 – Increase the frequency of usage from the app***.
+•	Integrate user catching features such as badges, achievements, or leaderboards.
+•	Ensure features elements are non-intrusive and enhance the overall user experience.
+•	Provide clear feedback on how users can earn rewards through the new features.
+***User Wants***: As a user, I want the Ridehailing app to include elements and features that make my experience more enjoyable, so I am motivated to use the app regularly.
+
+***In conclusion, to answer the question:***
+
+What will you track to measure the success of your features/implementation?
+To measure the success of the features and implementation aimed at increasing active users on the ride-hailing app, a set of key performance indicators (KPIs) should be tracked. These metrics will provide insights into various aspects of user engagement and the overall effectiveness of implemented strategies. Some relevant KPIs to monitor include:
+
+***1.	Active User:***
+•	Track the percentage of users who sign up and become actively engaged with the app on a regular basis.
+
+***2.	Retention Rate:***
+•	Measure the percentage of users who continue to use the app over a specific period, indicating sustained engagement.
+
+***3.	Feature Evaluation***
+•	Evaluate the new features or enhancements introduced to improve user engagement.
+
+***4.	Time Spent in the App:***
+•	Track the average time users spend within the app, providing insights into overall engagement and user experience.
+
+***5.	Customer Support Interaction:***
+•	Monitor the volume and nature of customer support interactions, as a decrease may indicate improved user experience.
+
+***6.	Promotional Campaign Effectiveness:***
+•	Assess the impact of marketing campaigns on user acquisition and retention, tracking the conversion rates from promotional efforts.
+
+
