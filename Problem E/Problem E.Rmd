@@ -1,0 +1,106 @@
+---
+title: "Problem E"
+author: "Raphael Dizon"
+date: "2024-01-24"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# APP-PULS
+
+## Scenario
+
+A product owner from the APP-PULS product wants to increase the number of active customers and transactions on APP-PULS for next month. However, the only customers who can use APP-PULS are ridehailing app customers who use APP-PAY. (You cannot use Cash to buy APP-PULS.) The PM wants more ridehailing app cash users to convert into a APP-PAY and APP-PULS user.
+
+The Product Owner believes that cash users on ridehailing app would be more likely to use APP-PULS if only they knew how easy APP-PULS was to use. The Product Owner wants to use the APP-POINTS redeemable voucher system to give out free APP-PULS vouchers to see if people will end up using APP-PULS more often if only they were able to experience it for themselves.
+
+Design an experiment to test the Product Owner's hypothesis. 
+
+Include details on how would you segment your users?
+
+What data would you analyze to come to your conclusion of whether or not the Product Owner's hypothesis was true?
+
+## Insights:
+
+1.	Increase the number of active customers and transactions on APP-PULS for next month.
+
+2.	Customers who can only use APP-PULS are customers who use APP-PAY
+
+3.	PM wants to convert ridehailing app cash users to convert into APP-PAY for APP-PULS
+
+4.	Cash users on ridehailing app would be more likely to use APP-PULS if only they knew how easy APP-PULS was to use.
+
+5.	The Product Owner wants to use the APP-POINTS redeemable voucher system to give out free APP-PULS vouchers to see if people will end up using APP-PULS more often if only they were able to experience it for themselves.
+
+## PO Hypothesis
+
+•	The Product Owner believes that cash users on ridehailing app would be more likely to use APP-PULS if only they knew how easy APP-PULS was to use.
+
+•	The Product Owner wants to use the APP-POINTS redeemable voucher system to give out free APP-PULS vouchers to see if people will end up using APP-PULS more often if only they were able to experience it for themselves.
+
+***Problem Statement: ***
+
+Closing the User Engagement Gap between Cash, App-Pay, and App-Plus users on Ridehailing APP.
+
+***Background Problem:***
+
+Cash users may be hesitant to adopt digital payment methods like APP-PULS due to various reasons, and might not be fully aware on the convenience of using APP-PULS.
+
+# Analytical Goals
+
+***WHY:***  Quantity of impact on customers and transactions
+-	Why do we need to increase in the first place
+-	Why are we interested in getting cash users to convert 
+-	We want to quantify the impact of closing the gap with user engagement.
+
+***HOW:*** Identify what cash users want to know about.
+
+***Answering the, WHY:***
+
+Quantity of impact on customers and transactions
+-	For this to be quantified, the data between the various users must be analyzed specifically the number of cash users and APP-Pay users. With this we can identify trends and focus on the downward trends from cash users.
+
+-	Thus, it has to do something about online literacy.
+
+***Answering the, HOW:***
+
+Identify what cash users want to know about.
+
+-	Identification of factors influencing the behavior of both user groups and understanding their specific needs and preferences.
+-	By then, we can categorize their needs and preferences and address it.
+
+## Summary
+
+***WHY: *** User involvement can address the concerns and misconceptions of cash users, emphasizing the advantages of transitioning to APP-PULS.
+
+***HOW: ***Establish a feedback mechanism to continually understand user sentiments, challenges, and satisfaction levels, allowing for iterative improvements.
+
+***Possible Solution:***
+
+Develop and conduct campaigns concerning in-app guidance and tutorials specifically tailored for cash users to ease their transition to APP-PAY or digital payments in order to access APP-PULS.
+
+
+***PO Hypothesis:*** PO hypothesis is also thru, but looking at a different perspective by connecting to the users will close the gap between cash users and digital payment users, that may help increase the number of active customers and transactions for the next month and following months.
+
+## Next Steps:
+
+-	Continue to gather feedback from users. (as they are the key component)
+
+-	Develop Guidance Campaigns
+
+-	Test and Implement guidance guidelines to users.
+
+***Further Steps: (Continuous Improvement)***
+
+-	Utilize in-app notifications and emails, to convey relevant information and promotions relevant to each user.
+
+-	Adopt the Product Owners idea, through incentive programs tailored for each user group, encouraging engagement and adoption of additional services.
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+---
+title: "Problem B"
+author: "Raphael Dizon"
+date: "2024-01-24"
+output:
+  word_document: default
+  html_document: default
+---
+
+# Data Cleaning and Processing
+![](https://shorturl.at/EMQW6)
+
+Removed rows that have a “Status if Order: Completed” but has no Total CBV, because it will affect the integrity and analysis of data.
+
+![](https://shorturl.at/hkwA2)
+
+Also removed rows with “0” # of orders but has completed, canceled, no drivers found, and Other/Failed/Timeout status because it will skew the analysis of data and create confusion because there’s no basis of the CBV.
+
+In the case of Other/Failed/Timeout: Bug in the system with 0 values on # of orders. Its somewhat relevant to the analysis of data.
+
+After removing irrelevant rows for data analysis, there were 2,769 rows left from the original uncleaned data of 3,211. A total of 442 rows removed.
+
+After that I replace blank values in the Total CBV column and replace it with the value 0, in order to create analysis and visualization.
+
+![](https://shorturl.at/fpKW2)
+
+In this pie-chart shows the sum total Cash booking value per Service app in percentage, where App-ride has produced the highest from the data.
+
+![](https://shorturl.at/nyDOU)
+
+In this line chart highlights the total number of orders per month by service app, It shows that theirs is an increasing trend from the first quarter and a huge drop on the start of 2nd quarter. 
+
+![](https://shorturl.at/iMU06)
+
+In this Bar-chart, It highlights the average order per day inclusive of any status of order whether completed, canceled, no drivers found, and Other/Failed/Timeout status. 
+
+However, for April there is only 1 day recorded which means there are still data that going to be added and be included in the analyzation process.
+
+![](https://t.ly/6-XM5)
+
+In this Bar-Chart, shows the total sum of Cash Booking values from the various Status of orders. Looking at a business perspective, potential CBV Loss can be analyzed if we take the total values from Cancelled, Failed/Timeout, No Driver Found, and Other which approximately $197 Billion.
+
+In addition to visually analyze the data, I added a slicer to further see specific values from the Status of Orders.
+
+***Insights:***
+
+1.	In the pie chart, the most utilized APP was the APP-Ride. With about 67.49% compared to other apps
+
+2.	In the line chart, there an increasing trend on the number of orders and surely see that the next quarter will project better numbers.
+
+3.	Taking the average order from the first quarter, shows quite good results. However for April, it has a pleasing good start, but needs to be consistent and maintained.
+
+***Summary:***
+
+•	With the results of the data it illustrates a consistent and substantial increase in the number of orders placed through our platform over the past quarter.
+
+•	This upward trajectory is indicative of a growing demand for our services, presenting a strategic opportunity for expansion.
+
+***Recommendation:***
+
+•	Develop and Implement an Action Plan. Since there is a good standard that is on the trend of the data it’s important to scale on the next steps.
+
+•	Strengthen data analytics capabilities to extract deeper insights into user behavior, preferences, and market trends. Utilize these insights for informed decision-making and strategic planning.
+
+•	Establish an enhanced and systematic customer feedback mechanism as it is the metric that drives order completion rates among the APPS.
+
+***Commitment to the next quarter and to long-term goals:***
+
+•	Initiate and Intensify the utilization of all the Apps that are used by increase marketing efforts to leverage the positive trends.
+
+
+

@@ -1,0 +1,142 @@
+---
+title: "Problem D"
+author: "Raphael Dizon"
+date: "2024-01-24"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+Here at ridehailing app we have 10 core values that we follow:
+
+1) IT'S NOT ABOUT YOU
+
+    • Puts the company above themselves
+    
+    • Obsesses about customer problems, not personal problems 
+    
+    • Has a purpose beyond personal success 
+
+2) STAND UP FOR WHAT YOU BELIEVE IN
+
+    • Says what they mean 
+    
+    • Has courage to disagree  
+    
+    • Has a strong moral compass
+
+3) COLLABORATE WITH COMPASSION 
+
+    • Is a pleasure to work with 
+    
+    • Supports others in areas beyond their scope 
+    
+    • Considers how their actions affects others
+
+4) BE FAST AND FEARLESS
+
+    • Takes calculated risk 
+    
+    • Values failure as much as success 
+    
+    • Has strong sense of urgency
+
+5) EARN YOUR TITLE
+
+    • Walks the talk 
+    
+    • Gets down in the trenches 
+    
+    • Trusts their team 
+
+6) BECOME A SCIENTIST
+
+    • Follows the numbers intensively 
+    
+    • Finds solutions in unexpected places 
+    
+    • Learns independently and shares knowledge  
+
+7) ALWAYS BE PREPARED 
+
+    • Does their homework 
+    
+    • Plans out every scenario 
+    
+    • Takes action to reduce risk 
+
+8) CRITICISM IS A GIFT 
+
+    • Actively seeks feedback from others 
+    
+    • Gives helpful feedback to others unprompted 
+    
+    • Genuinely acts upon feedback given
+
+9) COMMUNICATE WITH PURPOSE 
+
+    • States objectives in every interaction 
+    
+    • Aligns early and consistently 
+    
+    • Focuses on what is actionable
+
+10) SHOOT FOR GREATNESS
+
+    • Goes the extra mile 
+    
+    • Thinks big 
+    
+    • Loves to challenge themselves
+    
+# ANSWERS
+
+***Q: What is a specific example of a time where you showed strength in one of the 10 values?***
+
+During a complex data analysis project, the initial approach wasn't yielding the expected results. Rather than sticking to a predefined methodology, I took the initiative to reassess the problem and explore alternative solutions.
+
+I delved deeper into the data, following the numbers intensively and conducting a thorough review of various statistical models. Recognizing that the solution might not be found in conventional methods, I expanded my analysis to include data sources that were initially deemed unrelated.
+
+In the process, I discovered a pattern in a seemingly unrelated dataset that provided crucial insights into the main problem. This unorthodox approach not only led to a more accurate and insightful analysis but also uncovered unexpected correlations that significantly enhanced the overall project.
+
+Moreover, I actively shared my findings with the team, fostering a culture of collaborative learning. By presenting my thought process and discoveries, I contributed to the collective knowledge of the team, emphasizing the importance of thinking creatively and exploring unconventional avenues to find solutions.
+
+This experience not only showcased my commitment to following the numbers intensively but also highlighted my willingness to step outside traditional boundaries to find innovative solutions, embodying the essence of "BECOME A SCIENTIST" in the field of data analysis.
+
+***Q: What is a specific example of a time where you showed weakness in one of the 10 values?***
+
+In a particular project as a Data Analyst, I demonstrated a weakness in the value of "BE FAST AND FEARLESS." The project involved a tight deadline for delivering insights to inform a critical business decision. Faced with time constraints, I opted for a more conservative and traditional approach to data analysis, choosing well-established methods that I was familiar with.
+
+In retrospect, this decision hindered the speed and agility needed for the project. By avoiding taking calculated risks and exploring more innovative techniques, I missed an opportunity to potentially uncover faster and more efficient ways to analyze the data. The fear of potential failure and the desire for a proven approach led to a slower pace of analysis.
+
+This weakness became apparent during a project review when it was evident that a more fearless and experimental approach could have yielded quicker results without compromising the quality of insights. The lesson learned from this experience is the importance of balancing the need for reliability with the value of being fast and fearless, especially in situations where time is of the essence.
+
+Moving forward, I am committed to being more open to calculated risks and exploring unconventional methods when appropriate, ensuring a balance between established practices and the need for speed and innovation. This experience has reinforced the understanding that being fast and fearless is not only about quick decision-making but also about embracing new and potentially more efficient approaches.
+
+***Q: What are the top 3 values that matter the most to you? Why?***
+
+***BECOME A SCIENTIST:***
+
+Why: This value aligns closely with the core responsibilities of a Data Analyst. Following the numbers intensively, finding solutions in unexpected places, and learning independently are essential aspects of ensuring the accuracy and depth of data analysis. Embracing a scientific mindset promotes continuous improvement and innovation in data analysis techniques.
+
+***ALWAYS BE PREPARED:***
+
+Why: Data analysis often involves dealing with complex datasets and scenarios. Being prepared by doing thorough homework, planning out every scenario, and taking action to reduce risks is crucial. This value ensures that I approach each analysis with a well-thought-out strategy, minimizing the chances of oversight and ensuring the reliability of the insights generated.
+
+***COMMUNICATE WITH PURPOSE:***
+
+Why: Effective communication is vital for the success of any Data Analyst. Clearly stating objectives in every interaction, aligning early and consistently, and focusing on actionable insights help in conveying complex analytical findings in a meaningful way. This value not only enhances collaboration within the team but also ensures that the results of data analysis contribute directly to informed decision-making.
+
+These values collectively support a data-driven, collaborative, and purposeful approach to data analysis. They reinforce the importance of continuously improving analytical skills, being well-prepared for any analysis, and communicating findings in a way that adds tangible value to the organization.
+
+
+
+
+
+
+
+
+
+
+
+

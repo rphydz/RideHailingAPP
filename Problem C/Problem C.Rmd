@@ -1,0 +1,113 @@
+---
+title: "Problem C"
+author: "Raphael Dizon"
+date: "2024-01-24"
+output:
+  word_document: default
+  html_document: default
+---
+
+# Data Query - Results and Explained
+
+***Question 1***:
+
+Write a query to return all employees still working for the company with last names starting with "Smith" sorted by last name then first name.
+
+```
+SELECT *
+FROM `my-data-project-1-399301.Problem_C.employee`
+WHERE LastName LIKE 'Smith'
+  AND employment_status = 'Active'
+ORDER BY LastName, FirstName;
+```
+
+![Result](https://shorturl.at/fgpG8)
+
+***Explanation:***
+
+Here the query selects all employees who are currently working for the company (TerminationDate IS NULL) and have last names starting with "Smith" Then the results are sorted first by last name and then by first name.
+
+***Question 2***:
+
+Given the `Employee` and `AnnualReviews` tables, write a query to return all employees who have never had a review sorted by HireDate.
+
+![Result](https://shorturl.at/jqzAS)
+
+```
+select *
+from `my-data-project-1-399301.Problem_C.employee`
+
+where id not in 
+(
+  select empid 
+  from `my-data-project-1-399301.Problem_C.reviews`
+  )
+order by hiredate;
+```
+
+***Explanation:***
+
+Here the query selects employees who have never had a review by using a LEFT JOIN with the AnnualReviews table. And then it filters out rows where there is no corresponding review and sorts the results by HireDate.
+
+***Question 3***:
+
+Write a query to calculate the difference (in days) between the most and least tenured employee still working for the company.
+
+```
+SELECT 
+    MAX(HireDate) - MIN(HireDate) AS TenureDifference
+FROM 
+    `my-data-project-1-399301.Problem_C.employee`
+WHERE 
+    Employment_Status = 'Active'
+```
+
+![Result](https://shorturl.at/avw49)
+
+***Explanation:***
+
+Here the query calculates the tenure difference by finding the maximum and minimum hire dates for employees who are still working for the company (TerminationDate IS NULL).
+
+***Question 4***:
+
+Given the employee table above, write a query to calculate the longest period (in days) that the company has gone without a hiring or firing anyone
+
+```
+SELECT
+MAX(HireDate) - MIN(HireDate) AS LongestPeriod
+FROM `my-data-project-1-399301.Problem_C.employee`;
+```
+
+![Result](https://shorturl.at/ewPXY)
+
+***Explanation***
+
+Here the query calculates the longest period by finding the maximum termination date and the minimum hire date across all employees.
+
+***Question 5***:
+
+Write a query that returns each employee and for each row/employee include the greatest number of employees that worked for the company at any time during their tenure and the first date that maximum was reached. Extra points for not using cursors
+
+```
+WITH EmployeeCount AS (
+  SELECT
+    HireDate,
+    COUNT(*) AS NumEmployees
+  FROM `my-data-project-1-399301.Problem_C.employee`
+  GROUP BY HireDate
+)
+SELECT
+  *,
+  EC.NumEmployees AS MaxEmployees,
+  EC.HireDate AS DateMaxEmployeesReached
+FROM `my-data-project-1-399301.Problem_C.employee`
+JOIN EmployeeCount EC ON `my-data-project-1-399301.Problem_C.employee`.HireDate = EC.HireDate
+ORDER BY ID, EC.NumEmployees DESC;
+```
+
+![Result](https://shorturl.at/adrG4)
+
+***Explanation:***
+
+Here the query uses a common table expression (CTE) to calculate the number of employees hired on each date. Then it joins this information with the Employee table to associate the maximum number of employees and the date it was reached for each employee.
+

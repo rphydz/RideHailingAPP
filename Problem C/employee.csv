@@ -1,0 +1,7 @@
+FirstName,LastName,ID,HireDate,TerminationDate,Employment_Status, Salary 
+Bob,Smith,1,2009-06-20,2016-01-01,Active," $10,000.00 "
+Joe,Jarrod,2,2010-02-12,,Not Active," $20,000.00 "
+Nancy,Soley,3,2012-03-14,,Not Active," $30,000.00 "
+Keith,Widjaja,4,2013-09-10,2014-01-01,Active," $20,000.00 "
+Kelly,Smalls,5,2013-09-10,,Not Active," $20,000.00 "
+Frank,Nguyen,6,2015-04-10,2015-05-01,Active," $60,000.00 "
